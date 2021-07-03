@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+The search does not work because of CORS and I sent the issue to Eng Mohamed and Mrs Uzi but I didn not get a reply so I added the UI Only with no functionality
+You can click on orders to open a modal/dialog
+
 ## Available Scripts
 
 In the project directory, you can run:
