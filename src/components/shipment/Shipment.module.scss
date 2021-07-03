@@ -1,0 +1,43 @@
+@import "../../ui/variables";
+.shipments {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 120rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shipment {
+  max-width: 120rem;
+  margin: 2rem auto 0;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //   align-items: center;
+  padding: 1rem 3rem;
+  color: $white;
+  background-color: $secondary-color;
+  &:hover {
+    background-color: $secondary-light-color;
+  }
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.order-btn {
+  background-color: $info-color;
+  color: $white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

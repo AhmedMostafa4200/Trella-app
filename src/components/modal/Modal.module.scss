@@ -1,0 +1,95 @@
+@import "../../ui/variables";
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+  transition-timing-function: ease-out;
+  animation-name: overlay;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.modal {
+  width: 25rem;
+  max-height: 60vh;
+  overflow: auto;
+  position: relative;
+  background-color: $secondary-light-color;
+  border-radius: 0.8rem;
+  transition: all 3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  animation-name: modal;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $secondary-color;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $info-color;
+    border: 1px solid $secondary-light-color;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+}
+
+@keyframes overlay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal {
+  from {
+    transform: scale(0.25);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  cursor: pointer;
+  color: $white;
+}
+
+.shipment {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 3rem;
+  color: $white;
+  background-color: $secondary-light-color;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.name {
+  color: $info-color;
+}
