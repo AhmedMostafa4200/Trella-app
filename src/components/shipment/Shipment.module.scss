@@ -15,14 +15,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  //   align-items: center;
+  border-radius: 0.8rem;
   padding: 1rem 3rem;
   color: $white;
   background-color: $secondary-color;
   &:hover {
     background-color: $secondary-light-color;
   }
-  @media (max-width: 640px) {
+  @media (max-width: 680px) {
     width: 100%;
   }
 }

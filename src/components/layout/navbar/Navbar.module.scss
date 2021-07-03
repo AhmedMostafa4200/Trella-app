@@ -1,4 +1,8 @@
 @import "../../../ui/variables";
+
+.wrapper {
+  background-color: $info-color;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -12,6 +16,7 @@
 }
 .header {
   cursor: pointer;
+  font-size: 4rem;
 }
 .user-first-char {
   color: $primary-color;

@@ -1,0 +1,166 @@
+{
+    "shipments":[
+        {
+            "key": "359127fc-284f-494c-9681-64f4fae47d00",
+            "numberOfBids": 7,
+            "commodity": "كرتون",
+            "vehicleType": "دبابة مفتوح",
+            "price": 9955,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "8a95f707-1281-4277-8299-0e83686bd5e1",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "كينج مريوط"
+                },
+                {
+                    "order": 2,
+                    "key": "359fe8ee-dd1e-4539-b024-fee5ff546407",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "كينج مريوط"
+                }
+            ]
+        },
+        {
+            "key": "dbe2b4b6-ba90-48a1-b480-c7ff59d5f51b",
+            "numberOfBids": 12,
+            "commodity": "بلاستيك",
+            "vehicleType": "جامبو مقفول",
+            "price": 1991,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "db787bce-d490-4c8a-a106-c4031366861c",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "الهايكستب"
+                },
+                {
+                    "order": 2,
+                    "key": "6d1c89d8-1aad-4766-99f7-b7836bef4856",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "الهايكستب"
+                }
+            ]
+        },
+        {
+            "key": "ccc84c2b-55df-481f-95a9-8ec61da3f7ff",
+            "numberOfBids": 8,
+            "commodity": "بلاستيك",
+            "vehicleType": "جامبو مقفول",
+            "price": 8777,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "3d60a105-44d0-41d8-bb81-e963d3f18870",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "البحيرة"
+                },
+                {
+                    "order": 2,
+                    "key": "e78ab834-eb72-4666-91af-84f0d0427d94",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "كينج مريوط"
+                }
+            ]
+        },
+        {
+            "key": "5ac5a898-6943-4226-98ec-08b5c51556f8",
+            "numberOfBids": 10,
+            "commodity": "فوم",
+            "vehicleType": "سوزوكي",
+            "price": 5306,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "0da8955f-03b4-4fda-b238-e2f3d8c76dec",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "لبيا"
+                },
+                {
+                    "order": 2,
+                    "key": "fefb9c68-f731-4225-9e3d-b7763af5b16d",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "مصنع علف"
+                }
+            ]
+        },
+        {
+            "key": "b78e7fed-1518-49fb-a67b-1f39891dcf1e",
+            "numberOfBids": 8,
+            "commodity": "سلع إستهلاكية",
+            "vehicleType": "سوزوكي",
+            "price": 4540,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "b80459eb-9359-4825-97e3-4ca151077369",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "البحيرة"
+                },
+                {
+                    "order": 2,
+                    "key": "7682cdf0-8d5d-433c-b732-cb8c6e573882",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "لبيا"
+                }
+            ]
+        },
+        {
+            "key": "9535d199-6a38-4664-8256-130cc8fc845e",
+            "numberOfBids": 12,
+            "commodity": "فوم",
+            "vehicleType": "دبابة مفتوح",
+            "price": 2803,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "46a13d75-4ddf-4a38-986b-3c9b46e41610",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "البحيرة"
+                },
+                {
+                    "order": 2,
+                    "key": "96375b69-8aed-4f15-8470-b2b6e7ceaa18",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "العاشر من رمضان"
+                }
+            ]
+        },
+        {
+            "key": "08d3866a-964f-42c5-b9bc-42cfb537e9c4",
+            "numberOfBids": 11,
+            "commodity": "فوم",
+            "vehicleType": "دبابة مفتوح",
+            "price": 8684,
+            "addresses": [
+                {
+                    "order": 1,
+                    "key": "5ab6f055-bea7-4e69-ac9e-54a0b5f6335c",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "البحيرة"
+                },
+                {
+                    "order": 2,
+                    "key": "c9a2fb89-c962-4efa-afcf-38c5565b01a0",
+                    "latitude": 29.8058694,
+                    "longitude": 32.08891870000002,
+                    "name": "كينج مريوط"
+                }
+            ]
+        }
+    ]
+  }
+

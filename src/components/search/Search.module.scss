@@ -1,0 +1,67 @@
+@import "../../ui/variables";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 120rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
+}
+.search {
+  position: relative;
+  @media (max-width: 760px) {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
+.input-field {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 0.2rem solid $secondary-light-color;
+  border-radius: 0.5rem;
+  background-color: inherit;
+  padding: 1.5rem;
+  color: $white;
+  &:focus {
+    border: 0.2rem solid $info-color;
+    ~ .label {
+      transform: translateY(-2.5rem);
+      color: $info-color;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      background-color: $primary-color;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+.label {
+  position: absolute;
+  color: $white;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.search-btn {
+  background-color: $info-color;
+  color: $white;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  @media (max-width: 760px) {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
